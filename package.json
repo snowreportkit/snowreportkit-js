@@ -1,0 +1,23 @@
+{
+  "name": "SnowReportKit",
+  "version": "1.0.0",
+  "description": "SnowReportKit JS Library",
+  "repository": "snowreportkit/snowreportkit-js",
+  "main": "./src/SnowReport.js",
+  "author": "Travis Hyyppä",
+  "license": "MIT",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha --ui tdd --watch --watch-extensions js ./tests/**/*.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "nock": "^10.0.6"
+  }
+}
